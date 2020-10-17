@@ -1,8 +1,10 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
-  return `# ${answers.title}
+  return `
+  
+  ## ${answers.title}
 
-  ## Description
+  # Description
   ${answers.description}
 
   # Table of Contents 

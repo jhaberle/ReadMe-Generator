@@ -66,7 +66,7 @@ function promptUser() {
 }
 
 // function to initialize program
-function init() {
+async function init() {
     try {
         const answers = await promptUser();
     
