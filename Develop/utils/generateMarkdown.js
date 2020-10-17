@@ -21,6 +21,15 @@ function generateMarkdown(answers) {
 
   # Contribution
   ${answers.contribution}
+
+  # Tests
+  ${answers.test}
+
+  # Questions
+
+  Email: ${answers.email}
+  Github: https://github.com/${answers.github}
+  © ${answers.license} 
 `;
 }
 
