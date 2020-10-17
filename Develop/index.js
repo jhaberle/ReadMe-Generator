@@ -2,6 +2,7 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const util = require("util");
 const generateMarkdown = ("./utils/generateMarkdown");
+const writeFileAsync = util.promisify(fs.writeFile);
 
 
 // array of questions for user
@@ -60,11 +61,23 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+function promptUser() {
+    return inquirer.prompt(questions)
 }
 
 // function to initialize program
 function init() {
+    try {
+        const answers = await promptUser();
+    
+        const genMarkdown = generateMarkdown(answers);
+    
+        writeFileAsync("ReadME.md", genMarkdown)
+    
+        console.log("readme created");
+      } catch(err) {
+        console.log(err);
+      }
 
 }
 
