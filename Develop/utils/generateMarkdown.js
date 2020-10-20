@@ -15,15 +15,19 @@ function generateMarkdown(answers) {
   4. [Test Instructions](#test)<br>
   <br>
 
+  <a name="install"></a> 
   ### Installation
   ${answers.install}
 
+  <a name="usage"></a>
   ### Usage
   ${answers.usage}
 
+  <a name="contribution"></a>
   ### Contribution
   ${answers.contribution}
 
+  <a name="test"></a>
   ### Tests
   ${answers.test}
 

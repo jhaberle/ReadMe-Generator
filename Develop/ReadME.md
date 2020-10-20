@@ -3,7 +3,7 @@
   ## ReadMe Generator
 
   ### Description
-  A simple generator that creates professional ReadMe files to be used in Github repos
+  A simple readme generator that creates professional readme files to be used in Github
 
   ### Table of Contents 
   <br>
@@ -13,15 +13,19 @@
   4. [Test Instructions](#test)<br>
   <br>
 
+  <a name="install"></a> 
   ### Installation
-  NPM I
+  npm i
 
+  <a name="usage"></a>
   ### Usage
   
 
+  <a name="contribution"></a>
   ### Contribution
   
 
+  <a name="test"></a>
   ### Tests
   
 
