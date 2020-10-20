@@ -4,30 +4,30 @@ function generateMarkdown(answers) {
   
   ## ${answers.title}
 
-  # Description
+  ### Description
   ${answers.description}
 
-  # Table of Contents 
+  ### Table of Contents 
   <br>
-  1. [Installation](#install)
-  2. [Usage](#usage)
-  3. [Contribution](#contribution)
-  4. [Test Instructions](#test)
+  1. [Installation](#install)<br>
+  2. [Usage](#usage)<br>
+  3. [Contribution](#contribution)<br>
+  4. [Test Instructions](#test)<br>
   <br>
 
-  # Installation
+  ### Installation
   ${answers.install}
 
-  # Usage
+  ### Usage
   ${answers.usage}
 
-  # Contribution
+  ### Contribution
   ${answers.contribution}
 
-  # Tests
+  ### Tests
   ${answers.test}
 
-  # Questions
+  ### Questions
 
   Email: ${answers.email}
   Github: https://github.com/${answers.github}

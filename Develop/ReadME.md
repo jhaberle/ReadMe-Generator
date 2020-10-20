@@ -1,32 +1,32 @@
 
   
-  ## ReadMe Generator
+  ## 
 
-  # Description
-  This is a simple generator that creates professional ReadMe files for Github repos
+  ### Description
+  
 
-  # Table of Contents 
+  ### Table of Contents 
   <br>
-  1. [Installation](#install)
-  2. [Usage](#usage)
-  3. [Contribution](#contribution)
-  4. [Test Instructions](#test)
+  1. [Installation](###install)<br>
+  2. [Usage](###usage)<br>
+  3. [Contribution](###contribution)<br>
+  4. [Test Instructions](###test)<br>
   <br>
 
-  # Installation
+  ### Installation
   
 
-  # Usage
+  ### Usage
   
 
-  # Contribution
+  ### Contribution
   
 
-  # Tests
+  ### Tests
   
 
-  # Questions
+  ### Questions
 
-  Email: jake.haberle@gmail.com
-  Github: https://github.com/jhaberle
+  Email: 
+  Github: https://github.com/
   © ISC 
