@@ -1,7 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const util = require("util");
-const generateMarkdown = ("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 const writeFileAsync = util.promisify(fs.writeFile);
 
 
@@ -57,7 +57,10 @@ const questions = [
         type: "input",
         message: "Enter email address",
         name: "email"
-    }
+    },
+
+
+    
 ];
 
 // function to write README file
