@@ -3,7 +3,7 @@
   ## ReadMe Generator
 
   ### Description
-  A simple generator that creates professional readme files to be used in Github repos
+  A simple ReadMe generator that easily creates profession and clean ReadMe's for Github repos
 
   ### Table of Contents 
   <br>
@@ -33,4 +33,4 @@
 
   Email: jake.haberle@gmail.com
   Github: https://github.com/jhaberle
-  © ISC 
+  © MIT 
