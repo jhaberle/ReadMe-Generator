@@ -2,12 +2,12 @@
 function generateMarkdown(answers) {
   return `
   
-  ## ${answers.title}
+  # ${answers.title}
 
-  ### Description
+  ## Description
   ${answers.description}
 
-  ### Table of Contents 
+  ## Table of Contents 
   <br>
   1. [Installation](#install)<br>
   2. [Usage](#usage)<br>
@@ -16,22 +16,22 @@ function generateMarkdown(answers) {
   <br>
 
   <a name="install"></a> 
-  ### Installation
+  ## Installation
   ${answers.install}
 
   <a name="usage"></a>
-  ### Usage
+  ## Usage
   ${answers.usage}
 
   <a name="contribution"></a>
-  ### Contribution
+  ## Contribution
   ${answers.contribution}
 
   <a name="test"></a>
-  ### Tests
+  ## Tests
   ${answers.test}
 
-  ### Questions
+  ## Questions
 
   Email: ${answers.email}
   Github: https://github.com/${answers.github}
